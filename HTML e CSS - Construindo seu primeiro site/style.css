@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+html {
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+}
+
+.inspecionar{
+    border: 5px solid red;
+}
+
+.itens-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section, footer{
+    padding: 5rem;
+    max-width: 96rem;
+    margin: 0 auto;
+}
+
+.nav{
+    padding: 5rem 6rem;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.8rem;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.avatar{
+    border-radius: 100%;
+    width: 24rem;
+    height: 24rem;
+    margin-right: 10rem;
+}
+
+.main{
+    margin-bottom: 5rem;;
+}
+
+.main-title{
+    font-size: 4rem;
+}
+
+.main-description{
+    margin: 4rem 0;
+}
+
+.button{
+    border-radius: 0.4rem;
+    background-color: #162340;
+    padding: 1rem 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.about{
+    background-color: #162340;
+}
+
+.contatos{
+    background-color: #162340;
+}
+
+.project{
+    margin: 4rem 0;
+}
+
+.project-image{
+    width: 20rem;
+    height: 20rem;
+    margin-right: 5rem;
+    border-radius: 0.6rem;
+}
+
+.project-title{
+    font-size: 3rem;
+}
+
+.project a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    flex-direction: column;
+}
+
+.footer-social{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.social-image{
+    width: 3rem;
+    filter: invert(1);
+}
+
+@media(max-width: 1200px){
+    .itens-center{
+        flex-direction: column;
+    }
+    footer, section{
+        padding: 5rem;
+    }
+    .main{
+        margin-bottom: 2rem;
+    }
+    .main-title{
+        font-size: 3rem;
+    }
+    .project-image{
+        width: 35rem;
+        height: auto;
+    }
+    .avatar{
+        margin-right: 0;
+    }
+}
